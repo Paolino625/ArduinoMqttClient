@@ -1,10 +1,2 @@
-:repository-owner: arduino-libraries
-:repository-name: ArduinoMqttClient
-
-= {repository-name} Library for Arduino =
-
-image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/check-arduino.yml/badge.svg["Check Arduino status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/check-arduino.yml"]
-image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/compile-examples.yml/badge.svg["Compile Examples status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/compile-examples.yml"]
-image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml/badge.svg["Spell Check status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml"]
-
-Allows you to send and receive MQTT messages using Arduino.
+Fork della libreria ArduinoMqttClient con dimensione aumentata del payload dei messaggi MQTT.
+Nello specifico è stato modificato il valore della variabile TX_PAYLOAD_BUFFER_SIZE presente in MqttClient.ccp.
