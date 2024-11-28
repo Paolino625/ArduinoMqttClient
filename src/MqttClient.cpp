@@ -33,7 +33,7 @@
   #ifdef __AVR__
     #define TX_PAYLOAD_BUFFER_SIZE 128
   #else
-    #define TX_PAYLOAD_BUFFER_SIZE 2048
+    #define TX_PAYLOAD_BUFFER_SIZE 10000
   #endif
 #endif
 
